@@ -1,0 +1,24 @@
+{
+  "name": "product_catlog",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iHarshMakwana/Harsh_Makwana_ProductCatalog.git"
+  },
+  "author": "Harsh Makwana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iHarshMakwana/Harsh_Makwana_ProductCatalog/issues"
+  },
+  "homepage": "https://github.com/iHarshMakwana/Harsh_Makwana_ProductCatalog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

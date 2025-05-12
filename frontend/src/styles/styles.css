@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #FFFFFF;
+    color: #212121;
+  }
+  
+  .app {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* Heading Hierarchy */
+  h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .home-button {
+    padding: 8px 16px;
+    background: #28A745;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .home-button:hover {
+    background: #218838;
+  }
+  
+  .header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cart-button {
+    padding: 8px 16px;
+    background: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .cart-button:hover {
+    background: #0056B3;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    width: 200px;
+    font-size: 14px;
+    border: 1px solid #212121;
+    color: #212121;
+    background: #FFFFFF;
+  }
+  
+  .search-bar button {
+    padding: 8px;
+    background: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .search-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+  }
+  
+  .search-bar li {
+    cursor: pointer;
+    color: #007BFF;
+    font-size: 14px;
+  }
+  
+  .controls {
+    margin: 20px 0;
+  }
+  
+  .filter-panel {
+    padding: 10px;
+  }
+  
+  .filter-panel button {
+    padding: 8px;
+    background: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .filter-panel button:hover {
+    background: #0056B3;
+  }
+  
+  .filter-content {
+    border: 1px solid #212121;
+    padding: 10px;
+    margin-top: 10px;
+    background: #FFFFFF;
+  }
+  
+  .filter-content div {
+    margin: 10px 0;
+  }
+  
+  .filter-content input,
+  .filter-content select {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid #212121;
+    color: #212121;
+    background: #FFFFFF;
+  }
+  
+  .filter-content label {
+    font-size: 14px;
+  }
+  
+  /* Product Grid Layout */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  
+  @media (max-width: 1199px) {
+    .product-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  }
+  
+  .product-card {
+    border: 1px solid #212121;
+    padding: 10px;
+    text-align: center;
+    background: #FFFFFF;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .product-card .price,
+  .product-card .rating {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .product-card button {
+    padding: 8px;
+    margin: 5px;
+    background: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .product-card button.wishlist.active {
+    background: #FF4444;
+  }
+  
+  .mini-cart {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 250px;
+    background: #FFFFFF;
+    border: 1px solid #212121;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .mini-cart h2 {
+    font-size: 20px;
+  }
+  
+  .mini-cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mini-cart li {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .mini-cart button {
+    padding: 5px;
+    background: #FF4444;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }

@@ -10,8 +10,8 @@ A modern web browser (e.g., Chrome, Firefox).
 Install and run the MERN e-commerce app with the following steps:
 
 ```bash
-  git clone https://github.com/your-username/mern-ecommerce-simple.git
-  cd mern-ecommerce-simple
+git clone https://github.com/iHarshMakwana/Harsh_Makwana_ProductCatalog.git
+cd Harsh_Makwana_ProductCatalog
 ```
 
 ## Backend Setup

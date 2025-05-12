@@ -35,3 +35,6 @@ Verify by visiting http://localhost:5000/api/products (shows JSON with 6 product
 Runs the React app on http://localhost:3000.
 
 Opens automatically in your default browser.
+
+![image](https://github.com/user-attachments/assets/36916a60-843a-4449-9ee3-d3e225f67ba6)
+
